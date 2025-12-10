@@ -1,12 +1,12 @@
 <div align="center">
 
-# **YOUR PROJECT NAME HERE**
+# **TapIn**
 
 Transforming Ideas into Action, Instantly
 
-![last commit](https://img.shields.io/github/last-commit/coderharpuneet/YourRepoName?color=blue)
-![language](https://img.shields.io/github/languages/top/coderharpuneet/YourRepoName)
-![repo size](https://img.shields.io/github/repo-size/coderharpuneet/YourRepoName)
+![last commit](https://img.shields.io/github/last-commit/coderharpuneet/TapIn?color=blue)
+![language](https://img.shields.io/github/languages/top/coderharpuneet/TapIn)
+![repo size](https://img.shields.io/github/repo-size/coderharpuneet/TapIn)
 
 ---
 
@@ -27,6 +27,10 @@ Transforming Ideas into Action, Instantly
   <img src="https://img.shields.io/badge/Axios-black?logo=axios&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ESLint-black?logo=eslint&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Nodemon-black?logo=nodemon&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-black?logo=python&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Zod-black?logo=zod&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Swiper-black?logo=swiper&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Vite-black?logo=vite&style=for-the-badge"/>
 </p>
 
 </div>
@@ -36,7 +40,7 @@ Transforming Ideas into Action, Instantly
 # **Table of Contents**
 
 - [Overview](#overview)
-- [Why This Project?](#why-this-project)
+- [Why TapIn?](#why-tapin)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -48,41 +52,44 @@ Transforming Ideas into Action, Instantly
 
 # **Overview**
 
-This project is an all-in-one system designed to simplify modern development workflows.  
-It includes modular architecture, automated processing, real-time operations, and developer-friendly utilities — all built for scalability.
+TapIn is an all-in-one developer platform that simplifies building **AI-powered transcription, summarization, and document workflows**.  
+It combines real-time audio processing, scalable AI-driven content summarization, and a modular architecture to support complex, collaborative applications.
 
 ---
 
-# **Why This Project?**
+# **Why TapIn?**
 
-This system enables efficient, scalable operations with:
+This project enables efficient, scalable content management with:
 
 ### ✔ **Modular Architecture**  
-Integrates backend, frontend, and worker services seamlessly for easy extensibility.
+Seamlessly integrates frontend, backend, and worker components for flexible development.
 
-### ✔ **Real-Time Processing**  
-Supports live updates, instant actions, and scalable workflows.
+### ✔ **Real-Time Transcription**  
+Converts user-uploaded audio into text instantly, supporting scalable note-taking workflows.
 
-### ✔ **Document Handling (Optional)**  
-Automated PDF generation, content extraction, processing pipelines.
+### ✔ **AI Summarization**  
+Leverages Google Generative AI for asynchronous, concise content summaries.
 
-### ✔ **AI or Automation Integration**  
-Pluggable architecture supporting AI modules, summarization, transcription, or workflow automation.
+### ✔ **Document Handling**  
+Automates PDF generation and content workflows for comprehensive document management.
 
-### ✔ **Developer-Friendly Design**  
-Shared schemas, reusable components, environment-optimized setup for fast development.
+### ✔ **Developer-Friendly**  
+Provides shared schemas, build metadata, and robust integrations to streamline development and deployment.
 
 ---
 
 # **Features**
 
-- Scalable modular structure  
-- Type-safe backend with TypeScript  
-- REST API architecture  
-- Real-time workflows (optional)  
-- Queue + worker support (Redis or custom)  
-- Secure environment variable structure  
-- Automatic building & optimized production modes
+- Fully modular architecture (frontend + backend + workers)
+- Real-time transcription workflow
+- AI-powered content summarization
+- Automated document and PDF handling
+- Prisma schema + TypeScript type safety
+- Queue-based background job handling (Redis)
+- Cloudinary-based media management
+- Puppeteer-powered automated content actions
+- RESTful backend with expressive routing
+- Scalable, production-ready structure
 
 ---
 
@@ -90,7 +97,7 @@ Shared schemas, reusable components, environment-optimized setup for fast develo
 
 ## **Prerequisites**
 
-Ensure you have the following installed:
+Install the following:
 
 - **Programming Language:** TypeScript / JavaScript  
 - **Package Manager:** npm or yarn  
@@ -104,3 +111,33 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/coderharpuneet/TapIn.git
+
+Navigate into the project:
+
+cd TapIn
+
+
+Install dependencies:
+
+npm install
+
+Usage
+
+Start the development server:
+
+npm start
+
+
+If using TypeScript dev mode:
+
+npm run dev
+
+Testing
+
+Run the test suite (if enabled):
+
+npm test
+
+<div align="center">
+⭐ If you found TapIn helpful, consider giving it a star on GitHub!
+</div> ```
