@@ -59,37 +59,35 @@ It combines real-time audio processing, scalable AI-driven content summarization
 
 # **Why TapIn?**
 
-This project enables efficient, scalable content management with:
-
 ### ✔ **Modular Architecture**  
-Seamlessly integrates frontend, backend, and worker components for flexible development.
+Integrates frontend, backend, and worker services seamlessly.
 
 ### ✔ **Real-Time Transcription**  
-Converts user-uploaded audio into text instantly, supporting scalable note-taking workflows.
+Converts audio to text instantly.
 
 ### ✔ **AI Summarization**  
-Leverages Google Generative AI for asynchronous, concise content summaries.
+Uses Google Generative AI for summary generation.
 
 ### ✔ **Document Handling**  
-Automates PDF generation and content workflows for comprehensive document management.
+Automates PDF workflows and media handling.
 
 ### ✔ **Developer-Friendly**  
-Provides shared schemas, build metadata, and robust integrations to streamline development and deployment.
+Shared schemas, scalable patterns, and optimized architecture.
 
 ---
 
 # **Features**
 
-- Fully modular architecture (frontend + backend + workers)
-- Real-time transcription workflow
+- Modular architecture (frontend + backend + workers)
+- Real-time audio transcription
 - AI-powered content summarization
-- Automated document and PDF handling
-- Prisma schema + TypeScript type safety
-- Queue-based background job handling (Redis)
-- Cloudinary-based media management
-- Puppeteer-powered automated content actions
-- RESTful backend with expressive routing
-- Scalable, production-ready structure
+- Automatic PDF/document processing
+- Prisma + TypeScript type safety
+- Redis queue workers
+- Cloudinary media pipelines
+- Puppeteer automated workflows
+- RESTful backend API
+- Production-ready scalability
 
 ---
 
@@ -97,11 +95,12 @@ Provides shared schemas, build metadata, and robust integrations to streamline d
 
 ## **Prerequisites**
 
-Install the following:
+Before installing, ensure you have:
 
-- **Programming Language:** TypeScript / JavaScript  
-- **Package Manager:** npm or yarn  
-- **Node.js:** v18+ recommended  
+- Node.js (v18+ recommended)
+- npm or yarn
+- TypeScript (optional)
+- Git
 
 ---
 
@@ -111,33 +110,3 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/coderharpuneet/TapIn.git
-
-Navigate into the project:
-
-cd TapIn
-
-
-Install dependencies:
-
-npm install
-
-Usage
-
-Start the development server:
-
-npm start
-
-
-If using TypeScript dev mode:
-
-npm run dev
-
-Testing
-
-Run the test suite (if enabled):
-
-npm test
-
-<div align="center">
-⭐ If you found TapIn helpful, consider giving it a star on GitHub!
-</div> ```
