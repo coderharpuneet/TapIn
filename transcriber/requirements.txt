@@ -1,0 +1,6 @@
+flask
+pydub
+flask_cors
+redis
+openai-whisper
+requests
